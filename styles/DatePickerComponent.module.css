@@ -1,0 +1,37 @@
+.containerDate {
+  width: 100%;
+  background-color: #eeeeee;
+  position: fixed;
+  bottom: 0;
+  transition: height 0.3s ease-out;
+  border-top: 1px solid #c9c9c9;
+}
+
+.wrapperDate {
+  padding: 0 1.5rem;
+}
+
+.date-selector {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  perspective: 2000px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+  width: 600px;
+  height: 300px;
+}
+
+.date-selector > div {
+  flex: 1;
+}
+
+.date-selector .select-wrap {
+  font-size: 18px;
+}
+.date-selector .highlight {
+  font-size: 20px;
+}
